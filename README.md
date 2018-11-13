@@ -20,3 +20,7 @@ Le cours consiste à savoir :
 
 `git commit -m "message"` 
 > commit les modifications
+
+##### Ajout de la commande : Modifier le dernier commit
+Cette opération **n'est pas sans conséquence** car elle modifie l'historique. Modifier un commit signifie que l'on va créer un nouveau commit.
+>git commit -a --amend -m "Amend commit"
